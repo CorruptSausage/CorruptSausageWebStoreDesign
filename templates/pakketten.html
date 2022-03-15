@@ -38,61 +38,7 @@
     <title>{{ store.name }}</title>
 </head>
 <style>
-    .pakket_options {
-        display: flex;
-        margin-left: -5px;
-        margin-top: 10%;
-        margin-top: 0px;
-    }
-
-    li {
-        list-style: none;
-    }
-
-    .list_content {
-        border-radius: 10px;
-        margin-left: 5px;
-        width: 30vw;
-        text-align: center;
-        color: white;
-        border: 2px solid #333;
-        box-shadow: 1px 1px 1px 1px #333;
-        cursor: default;
-    }
-
-    .info_button {
-        width: 98%;
-        color: white;
-        border: none;
-        background-color: #0093E9;
-        box-shadow: 1px 1px 1.5px 1.5px #0093E9;
-        padding: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 20px;
-        border-radius: 5px;
-        margin-bottom: 2px;
-        transition: 0.5s;
-    }
-
-    .price::before {
-        content: "€";
-    }
-
-    .footer {
-        position: absolute;
-        top: 110vh;
-        width: 100%;
-    }
-
-    .pakket_image:hover {
-        opacity: 0.8;
-    }
-
-    .list_disc
-    {
-        list-style-type: disc;
-    }
+    
 </style>
 
 <body>
@@ -135,128 +81,122 @@
             </li>
         </ul>
         <header>
-            <div class="line_1">
-                <ul class="pakket_options">
-                    <li class="list_content">
-                        <div class="pakket_body">
-                            <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/f1546053a7946ef44a2ba1f5675dfd8a91271a6d.png"
-                                alt="Queue Priority 30D" class="pakket_image">
-                            <div class="movie_information">
-                                <div class="movie_title">
-                                    <h4>Queue Priority (30d)</h4>
-                                </div>
-                                <div class="movie_price">
-                                    <h4 class="price">17,50</h4>
-                                </div>
-                                <br>
-                                <div class="more_info">
-                                    <button class="info_button" data-bs-toggle="modal"
-                                        data-bs-target="#QueuePriority30D">Bekijken</button>
-                                </div>
+            <ul class="pakket_options">
+                <li class="list_content">
+                    <div class="pakket_body">
+                        <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/f1546053a7946ef44a2ba1f5675dfd8a91271a6d.png"
+                            alt="Queue Priority 30D" class="pakket_image">
+                        <div class="movie_information">
+                            <div class="movie_title">
+                                <h4>Queue Priority (30d)</h4>
+                            </div>
+                            <div class="movie_price">
+                                <h4 class="price">17,50</h4>
+                            </div>
+                            <br>
+                            <div class="more_info">
+                                <button class="info_button" data-bs-toggle="modal"
+                                    data-bs-target="#QueuePriority30D">Bekijken</button>
                             </div>
                         </div>
-                    </li>
-                    <li class="list_content">
-                        <div class="pakket_body">
-                            <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/bac38f6beb841f4989f797c6926a8546f871d7b8.png"
-                                alt="Queue Priority 90D" class="pakket_image">
-                            <div class="movie_information">
-                                <div class="movie_title">
-                                    <h4>Queue Priority (90d)</h4>
-                                </div>
-                                <div class="movie_price">
-                                    <h4 class="price">45,00</h4>
-                                </div>
-                                <br>
-                                <div class="more_info">
-                                    <button class="info_button" data-bs-toggle="modal"
-                                        data-bs-target="#QueuePriority90D">Bekijken</button>
-                                </div>
+                    </div>
+                </li>
+                <li class="list_content">
+                    <div class="pakket_body">
+                        <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/bac38f6beb841f4989f797c6926a8546f871d7b8.png"
+                            alt="Queue Priority 90D" class="pakket_image">
+                        <div class="movie_information">
+                            <div class="movie_title">
+                                <h4>Queue Priority (90d)</h4>
+                            </div>
+                            <div class="movie_price">
+                                <h4 class="price">45,00</h4>
+                            </div>
+                            <br>
+                            <div class="more_info">
+                                <button class="info_button" data-bs-toggle="modal"
+                                    data-bs-target="#QueuePriority90D">Bekijken</button>
                             </div>
                         </div>
-                    </li>
-                    <li class="list_content">
-                        <div class="pakket_body">
-                            <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/1420c1308c4d6f75f8c1e986939286c02ca89dd7.png"
-                                alt="Server Supporter 30D" class="pakket_image">
-                            <div class="movie_information">
-                                <div class="movie_title">
-                                    <h4>Server Supporter (30d)</h4>
-                                </div>
-                                <div class="movie_price">
-                                    <h4 class="price">28,00</h4>
-                                </div>
-                                <br>
-                                <div class="more_info">
-                                    <button class="info_button" data-bs-toggle="modal"
-                                        data-bs-target="#ServerSupporter30D">Bekijken</button>
-                                </div>
+                    </div>
+                </li>
+                <li class="list_content">
+                    <div class="pakket_body">
+                        <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/1420c1308c4d6f75f8c1e986939286c02ca89dd7.png"
+                            alt="Server Supporter 30D" class="pakket_image">
+                        <div class="movie_information">
+                            <div class="movie_title">
+                                <h4>Server Supporter (30d)</h4>
+                            </div>
+                            <div class="movie_price">
+                                <h4 class="price">28,00</h4>
+                            </div>
+                            <br>
+                            <div class="more_info">
+                                <button class="info_button" data-bs-toggle="modal"
+                                    data-bs-target="#ServerSupporter30D">Bekijken</button>
                             </div>
                         </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="line_2">
-                <ul class="pakket_options">
-                    <li class="list_content">
-                        <div class="pakket_body">
-                            <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/cf959192aaefefa86e1734ea5137e86a35000f62.png"
-                                alt="Queue Priority 90D" class="pakket_image">
-                            <div class="movie_information">
-                                <div class="movie_title">
-                                    <h4>Server Supporter (90d)</h4>
-                                </div>
-                                <div class="movie_price">
-                                    <h4 class="price">70,00</h4>
-                                </div>
-                                <br>
-                                <div class="more_info">
-                                    <button class="info_button" data-bs-toggle="modal"
-                                        data-bs-target="#ServerSupporter90D">Bekijken</button>
-                                </div>
+                    </div>
+                </li>
+                <li class="list_content">
+                    <div class="pakket_body">
+                        <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/cf959192aaefefa86e1734ea5137e86a35000f62.png"
+                            alt="Queue Priority 90D" class="pakket_image">
+                        <div class="movie_information">
+                            <div class="movie_title">
+                                <h4>Server Supporter (90d)</h4>
+                            </div>
+                            <div class="movie_price">
+                                <h4 class="price">70,00</h4>
+                            </div>
+                            <br>
+                            <div class="more_info">
+                                <button class="info_button" data-bs-toggle="modal"
+                                    data-bs-target="#ServerSupporter90D">Bekijken</button>
                             </div>
                         </div>
-                    </li>
-                    <li class="list_content">
-                        <div class="pakket_body">
-                            <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/8d544debbf518abbaf7db867cec8c7037cd57884.png"
-                                alt="Server Supporter Ultra 30D" class="pakket_image">
-                            <div class="movie_information">
-                                <div class="movie_title">
-                                    <h4>Server Supporter Ultra (30d)</h4>
-                                </div>
-                                <div class="movie_price">
-                                    <h4 class="price">40,00</h4>
-                                </div>
-                                <br>
-                                <div class="more_info">
-                                    <button class="info_button" data-bs-toggle="modal"
-                                        data-bs-target="#ServerSupporterUltra30D">Bekijken</button>
-                                </div>
+                    </div>
+                </li>
+                <li class="list_content">
+                    <div class="pakket_body">
+                        <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/8d544debbf518abbaf7db867cec8c7037cd57884.png"
+                            alt="Server Supporter Ultra 30D" class="pakket_image">
+                        <div class="movie_information">
+                            <div class="movie_title">
+                                <h4>Server Supporter Ultra (30d)</h4>
+                            </div>
+                            <div class="movie_price">
+                                <h4 class="price">40,00</h4>
+                            </div>
+                            <br>
+                            <div class="more_info">
+                                <button class="info_button" data-bs-toggle="modal"
+                                    data-bs-target="#ServerSupporterUltra30D">Bekijken</button>
                             </div>
                         </div>
-                    </li>
-                    <li class="list_content">
-                        <div class="pakket_body">
-                            <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/0df2abe63d8aec621696cac653bae753d53f545f.png"
-                                alt="Server Supporter Ultra 90D" class="pakket_image">
-                            <div class="movie_information">
-                                <div class="movie_title">
-                                    <h4>Server Supporter Ultra (90d)</h4>
-                                </div>
-                                <div class="movie_price">
-                                    <h4 class="price">99,99</h4>
-                                </div>
-                                <br>
-                                <div class="more_info">
-                                    <button class="info_button" data-bs-toggle="modal"
-                                        data-bs-target="#ServerSupporterUltra90D">Bekijken</button>
-                                </div>
+                    </div>
+                </li>
+                <li class="list_content">
+                    <div class="pakket_body">
+                        <img src="//dunb17ur4ymx4.cloudfront.net/packages/images/0df2abe63d8aec621696cac653bae753d53f545f.png"
+                            alt="Server Supporter Ultra 90D" class="pakket_image">
+                        <div class="movie_information">
+                            <div class="movie_title">
+                                <h4>Server Supporter Ultra (90d)</h4>
+                            </div>
+                            <div class="movie_price">
+                                <h4 class="price">99,99</h4>
+                            </div>
+                            <br>
+                            <div class="more_info">
+                                <button class="info_button" data-bs-toggle="modal"
+                                    data-bs-target="#ServerSupporterUltra90D">Bekijken</button>
                             </div>
                         </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                </li>
+            </ul>
 
             <!-- Modals-->
             <!-- Queue Priority 30D -->

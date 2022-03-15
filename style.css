@@ -444,7 +444,7 @@ body {
 @media screen and (max-width: 1025px) {
     .container>header {
         margin: 0 auto;
-        padding: 120px 50px;
+        padding: 120px;
         font-size: 70%;
         text-align: right;
     }
@@ -676,8 +676,8 @@ table {
 
 .footer {
     position: absolute;
-    top: 110vh;
-    width: 100%;
+    bottom: 0vh;
+    width: 100vw;
 }
 
 .corruptsausage_text {

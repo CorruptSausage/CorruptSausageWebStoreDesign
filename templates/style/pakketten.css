@@ -1,5 +1,6 @@
 .pakket_options {
     display: flex;
+    flex-wrap: wrap;
     margin-left: -5px;
     margin-top: 10%;
     margin-top: 0px;
@@ -11,17 +12,17 @@ li {
 
 .list_content {
     border-radius: 10px;
-    margin-left: 5px;
+    margin: 10px;
     width: 30vw;
     text-align: center;
     color: white;
     border: 2px solid #333;
     box-shadow: 1px 1px 1px 1px #333;
     cursor: default;
+    flex: 0 0 300px;
 }
 
-.info_button
-{
+.info_button {
     width: 98%;
     color: white;
     border: none;
@@ -38,4 +39,28 @@ li {
 
 .price::before {
     content: "€";
+}
+
+.footer {
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+}
+
+.pakket_image:hover {
+    opacity: 0.8;
+}
+
+.list_disc
+{
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 1025px) {
+    .container>header {
+        margin: 0 auto;
+        padding: 0px;
+        font-size: 70%;
+        text-align: right;
+    }
 }
