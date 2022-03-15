@@ -1,0 +1,41 @@
+.pakket_options {
+    display: flex;
+    margin-left: -5px;
+    margin-top: 10%;
+    margin-top: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.list_content {
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 30vw;
+    text-align: center;
+    color: white;
+    border: 2px solid #333;
+    box-shadow: 1px 1px 1px 1px #333;
+    cursor: default;
+}
+
+.info_button
+{
+    width: 98%;
+    color: white;
+    border: none;
+    background-color: #0093E9;
+    box-shadow: 1px 1px 1.5px 1.5px #0093E9;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    transition: 0.5s;
+}
+
+.price::before {
+    content: "€";
+}

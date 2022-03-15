@@ -676,8 +676,8 @@ table {
 
 .footer {
     position: absolute;
-    bottom: 0;
-    width: 100vw;
+    top: 110vh;
+    width: 100%;
 }
 
 .corruptsausage_text {
