@@ -675,7 +675,9 @@ table {
 }
 
 .footer {
-    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
 
 .corruptsausage_text {
@@ -684,4 +686,14 @@ table {
 
 .navbar_logo {
     width: 60px;
+}
+
+body
+{
+    height: 100%;
+}
+
+html
+{
+    height: 100%;
 }
