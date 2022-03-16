@@ -41,9 +41,13 @@ li {
     content: "€";
 }
 
+body {
+    position: relative;
+}
+
 .footer {
     position: absolute;
-    bottom: 0vh;
+    bottom: 0;
     width: 100%;
 }
 
@@ -51,8 +55,7 @@ li {
     opacity: 0.8;
 }
 
-.list_disc
-{
+.list_disc {
     list-style-type: disc;
 }
 
