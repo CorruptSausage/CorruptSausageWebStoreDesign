@@ -27,11 +27,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <script src="https://raw.githack.com/CorruptSausage/CorruptSausageWebStoreDesign/main/js/modernizr.custom.js"></script>
+    <script src="https://raw.githack.com/CorruptSausage/CorruptSausageWebStoreDesign/main/js/modernizr.custom.js">
+    </script>
     <link rel="icon" href="{{ store.favicon }}" type="image/x-icon">
-    <link rel="stylesheet" href="https://raw.githack.com/CorruptSausage/CorruptSausageWebStoreDesign/main/style.css" type="text/css">
+    <link rel="stylesheet" href="https://raw.githack.com/CorruptSausage/CorruptSausageWebStoreDesign/main/style.css"
+        type="text/css">
     <title>{{ store.name }}</title>
 </head>
+<style>
+
+</style>
 
 <body>
     <div class="container">
@@ -42,11 +47,15 @@
                     <div class="gn-scroller">
                         <ul class="gn-menu">
                             <li>
-                                <a class="bi" style="padding-left: 10px;" href="http://localhost/CorruptSausageWebStoreDesign/index.php"><img src="{{ store.logo }}"
-                                        style="padding-right: 10px;" class="navbar_logo">Supporter
+                                <a class="bi" style="padding-left: 10px;"
+                                    href="http://localhost/CorruptSausageWebStoreDesign/index.php"><img
+                                        src="{{ store.logo }}" style="padding-right: 10px;"
+                                        class="navbar_logo">Supporter
                                     Pakketten</a>
                                 <ul class="gn-submenu">
-                                    <li><a class="gn-icon" href="http://localhost/CorruptSausageWebStoreDesign/pakketten.php">Losse Pakketten</a></li>
+                                    <li><a class="gn-icon"
+                                            href="http://localhost/CorruptSausageWebStoreDesign/pakketten.php">Losse
+                                            Pakketten</a></li>
                                     <li><a class="gn-icon">Abbonementen</a></li>
                                 </ul>
                             </li>
@@ -68,7 +77,7 @@
                         class="navbar_logo">Tedeapolis</a>
             </li>
         </ul>
-        <header>
+        <div class="welcome">
             <div class="mt-4 p-5 bg-primary text-white rounded" style="padding: 0px;">
                 <h1><img src="{{ store.logo }}" style="width: 20%;">Welkom!</h1>
                 <p>
@@ -95,8 +104,8 @@
                     </p>
                 </p>
             </div>
-            <br>
-        </header>
+        </div>
+        <br>
     </div>
     <script src="https://raw.githack.com/CorruptSausage/CorruptSausageWebStoreDesign/main/js/classie.js"></script>
     <script src="https://raw.githack.com/CorruptSausage/CorruptSausageWebStoreDesign/main/js/gnmenu.js"></script>

@@ -328,10 +328,6 @@ input.gn-search:focus {
     }
 }
 
-body {
-    background: #34495e;
-}
-
 .container>header,
 .codrops-top {
     color: #fff;
@@ -492,10 +488,6 @@ html {
     font-family: 'Poppins', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
 }
 
 a:focus {
@@ -674,10 +666,12 @@ table {
     background-color: #333333 !important;
 }
 
+
+
 .footer {
     position: absolute;
-    bottom: 0vh;
-    width: 100vw;
+    bottom: 0;
+    width: 100%;
 }
 
 .corruptsausage_text {
@@ -691,6 +685,9 @@ table {
 body
 {
     height: 100%;
+    position: relative;
+    background: #34495e;
+    margin: 0;
 }
 
 html
