@@ -38,7 +38,71 @@
     <title>{{ store.name }}</title>
 </head>
 <style>
-    
+    .pakket_options {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -5px;
+        margin-top: 10%;
+        margin-top: 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .list_content {
+        border-radius: 10px;
+        margin: 10px;
+        width: 30vw;
+        text-align: center;
+        color: white;
+        border: 2px solid #333;
+        box-shadow: 1px 1px 1px 1px #333;
+        cursor: default;
+        flex: 0 0 300px;
+    }
+
+    .info_button {
+        width: 98%;
+        color: white;
+        border: none;
+        background-color: #0093E9;
+        box-shadow: 1px 1px 1.5px 1.5px #0093E9;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-bottom: 2px;
+        transition: 0.5s;
+    }
+
+    .price::before {
+        content: "€";
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0vh;
+        width: 100%;
+    }
+
+    .pakket_image:hover {
+        opacity: 0.8;
+    }
+
+    .list_disc {
+        list-style-type: disc;
+    }
+
+    @media screen and (max-width: 1025px) {
+        .container>header {
+            margin: 0 auto;
+            padding: 0px;
+            font-size: 70%;
+            text-align: right;
+        }
+    }
 </style>
 
 <body>
@@ -287,22 +351,24 @@
                             <br>
                             <br>
                             <ul>
-                                <li  class="list_disc">
+                                <li class="list_disc">
                                     Toegang tot onze exclusieve Server Supporter kanalen.
                                 </li>
                                 <li class="list_disc">
                                     1 kenteken die je op een auto naar keuze kan plaatsen met een eigen bedacht woord.
                                 </li>
                                 <li class="list_disc">
-                                    1 eigen straatnaam op een plek naar keuze (als deze beschikbaar is). Geldig zolang je
-                                pakket loopt.
+                                    1 eigen straatnaam op een plek naar keuze (als deze beschikbaar is). Geldig zolang
+                                    je
+                                    pakket loopt.
                                 </li>
                                 <li class="list_disc">
                                     Voorrang in de wachtrij. Je zult voor normale spelers en spelers met de Queue Bypass
                                     geplaatst worden.
                                 </li>
                                 <li class="list_disc">
-                                    De mogelijkheid om exclusieve auto’s die enkel voor Server Supporter beschikbaar zijn te
+                                    De mogelijkheid om exclusieve auto’s die enkel voor Server Supporter beschikbaar
+                                    zijn te
                                     kopen! (Let op, dit moet nog wel met ingame geld gekocht worden).
                                 </li>
                                 <br>
